@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script>
+// Demo: disable Web Bluetooth so the app never opens a device pairing prompt.
+try{Object.defineProperty(Navigator.prototype,'bluetooth',{get:function(){return undefined},configurable:true});}catch(e){}
+try{Object.defineProperty(navigator,'bluetooth',{value:undefined,configurable:true});}catch(e){}
+</script>
+
   <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
@@ -31,8 +37,17 @@
 
   <title>heygo_app</title>
   <link rel="manifest" href="manifest.json">
+<style>
+html,body{margin:0;height:100%;background:#E5F0F9}
+#app{position:fixed;inset:0}
+@media (min-width:700px){
+  body{background:radial-gradient(1000px 600px at 50% 0%,#1d3a4f,#0b1118 70%)}
+  #app{position:absolute;left:50%;top:50%;width:393px;height:852px;max-height:calc(100vh - 32px);transform:translate(-50%,-50%);border-radius:44px;overflow:hidden;box-shadow:0 0 0 10px #1b1d22,0 0 0 12px #3a3d44,0 30px 90px rgba(0,0,0,.5)}
+}
+</style>
 </head>
 <body>
+  <div id="app"></div>
   <!--
     You can customize the "flutter_bootstrap.js" script.
     This is useful to provide a custom configuration to the Flutter loader

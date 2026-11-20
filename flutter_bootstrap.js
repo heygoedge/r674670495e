@@ -36,7 +36,7 @@ if (!window._flutter) {
 _flutter.buildConfig = {"engineRevision":"5a2a6a42cce67f965cf540fcecf616faca624aa1","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"},{}],"useLocalCanvasKit":true};
 
 _flutter.loader.load({
-  config: { fontFallbackBaseUrl: 'https://fonts.gstatic.cn/s/' },
+  config: { fontFallbackBaseUrl: 'https://fonts.gstatic.cn/s/', hostElement: document.getElementById('app') },
   serviceWorkerSettings: {
     serviceWorkerVersion: "1806546468" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */
   }
