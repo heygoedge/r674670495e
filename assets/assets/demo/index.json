@@ -1,0 +1,166 @@
+{
+ "routes": [
+  {
+   "re": "^GET /api/v2/users/me$",
+   "file": "me.json"
+  },
+  {
+   "re": "^PATCH /api/v2/users/me$",
+   "file": "me.json"
+  },
+  {
+   "re": "^GET /api/v2/devices$",
+   "file": "devices.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/seasons$",
+   "file": "seasons.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/season/\\d+$",
+   "file": "season.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day:latest$",
+   "file": "day_latest.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07$",
+   "file": "day.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/stats$",
+   "file": "stats.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/iq/best-segments$",
+   "file": "iq_best.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/usage-quotas$",
+   "file": "quotas.json"
+  },
+  {
+   "re": "^GET /api/v2/subscriptions/me$",
+   "file": "subs_me.json"
+  },
+  {
+   "re": "^GET .*/onboarding-progress$",
+   "file": "onboarding.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/iq/best-segments/timing$",
+   "file": "iq_best_timing.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/iq/best-segments/pressure$",
+   "file": "iq_best_pressure.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/iq/best-segments/flow$",
+   "file": "iq_best_flow.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/iq/best-segments/similarity$",
+   "file": "iq_best_similarity.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/0$",
+   "file": "run_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/0/sgmt/0/detail$",
+   "file": "sgmt_0_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/1$",
+   "file": "run_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/1/sgmt/0/detail$",
+   "file": "sgmt_1_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/2$",
+   "file": "run_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/2/sgmt/0/detail$",
+   "file": "sgmt_2_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/2/sgmt/1/detail$",
+   "file": "sgmt_2_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/3$",
+   "file": "run_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/3/sgmt/0/detail$",
+   "file": "sgmt_3_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/4$",
+   "file": "run_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/4/sgmt/0/detail$",
+   "file": "sgmt_4_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/4/sgmt/1/detail$",
+   "file": "sgmt_4_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/5$",
+   "file": "run_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/5/sgmt/0/detail$",
+   "file": "sgmt_5_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/5/sgmt/1/detail$",
+   "file": "sgmt_5_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/6$",
+   "file": "run_6.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/6/sgmt/0/detail$",
+   "file": "sgmt_6_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/7$",
+   "file": "run_7.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/7/sgmt/0/detail$",
+   "file": "sgmt_7_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/8$",
+   "file": "run_8.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/8/sgmt/0/detail$",
+   "file": "sgmt_8_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/9$",
+   "file": "run_9.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-07/run/9/sgmt/0/detail$",
+   "file": "sgmt_9_0.json"
+  }
+ ],
+ "batch": {
+  "memory": "batch_memory.json",
+  "profile": "batch_profile.json",
+  "chat": "batch_chat.json",
+  "teaching_content": "batch_teaching.json"
+ }
+}

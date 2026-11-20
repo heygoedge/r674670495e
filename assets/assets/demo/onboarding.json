@@ -1,0 +1,1 @@
+{"status": "success", "code": "OK", "message": "OK", "data": {"device_bound": true, "physical_device_bound": true, "device_binding_exempt": false, "profile_submitted": true, "onboarding_state": "completed", "completed": true}, "meta": {"request_id": "demo", "server_time": "2026-11-18T08:00:00Z"}}
