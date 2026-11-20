@@ -1,6 +1,1598 @@
 {
  "routes": [
   {
+   "re": "^GET /api/v2/users/me/day/2026-07-28$",
+   "file": "day_2026-07-28.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/0$",
+   "file": "run_2026-07-28_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/0/sgmt/0/detail$",
+   "file": "sgmt_2026-07-28_0_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/0/sgmt/1/detail$",
+   "file": "sgmt_2026-07-28_0_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/0/sgmt/2/detail$",
+   "file": "sgmt_2026-07-28_0_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/0/sgmt/3/detail$",
+   "file": "sgmt_2026-07-28_0_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/0/sgmt/4/detail$",
+   "file": "sgmt_2026-07-28_0_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/0/sgmt/5/detail$",
+   "file": "sgmt_2026-07-28_0_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/1$",
+   "file": "run_2026-07-28_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/1/sgmt/0/detail$",
+   "file": "sgmt_2026-07-28_1_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/1/sgmt/1/detail$",
+   "file": "sgmt_2026-07-28_1_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/1/sgmt/2/detail$",
+   "file": "sgmt_2026-07-28_1_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/1/sgmt/3/detail$",
+   "file": "sgmt_2026-07-28_1_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/1/sgmt/4/detail$",
+   "file": "sgmt_2026-07-28_1_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/1/sgmt/5/detail$",
+   "file": "sgmt_2026-07-28_1_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/1/sgmt/6/detail$",
+   "file": "sgmt_2026-07-28_1_6.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/2$",
+   "file": "run_2026-07-28_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/2/sgmt/0/detail$",
+   "file": "sgmt_2026-07-28_2_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/2/sgmt/1/detail$",
+   "file": "sgmt_2026-07-28_2_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/2/sgmt/2/detail$",
+   "file": "sgmt_2026-07-28_2_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/2/sgmt/3/detail$",
+   "file": "sgmt_2026-07-28_2_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/3$",
+   "file": "run_2026-07-28_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/3/sgmt/0/detail$",
+   "file": "sgmt_2026-07-28_3_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/3/sgmt/1/detail$",
+   "file": "sgmt_2026-07-28_3_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/3/sgmt/2/detail$",
+   "file": "sgmt_2026-07-28_3_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/4$",
+   "file": "run_2026-07-28_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/4/sgmt/0/detail$",
+   "file": "sgmt_2026-07-28_4_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/4/sgmt/1/detail$",
+   "file": "sgmt_2026-07-28_4_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/4/sgmt/2/detail$",
+   "file": "sgmt_2026-07-28_4_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/4/sgmt/3/detail$",
+   "file": "sgmt_2026-07-28_4_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/4/sgmt/4/detail$",
+   "file": "sgmt_2026-07-28_4_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/4/sgmt/5/detail$",
+   "file": "sgmt_2026-07-28_4_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/4/sgmt/6/detail$",
+   "file": "sgmt_2026-07-28_4_6.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/5$",
+   "file": "run_2026-07-28_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/5/sgmt/0/detail$",
+   "file": "sgmt_2026-07-28_5_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/5/sgmt/1/detail$",
+   "file": "sgmt_2026-07-28_5_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/5/sgmt/2/detail$",
+   "file": "sgmt_2026-07-28_5_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/5/sgmt/3/detail$",
+   "file": "sgmt_2026-07-28_5_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/5/sgmt/4/detail$",
+   "file": "sgmt_2026-07-28_5_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/5/sgmt/5/detail$",
+   "file": "sgmt_2026-07-28_5_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/6$",
+   "file": "run_2026-07-28_6.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/6/sgmt/0/detail$",
+   "file": "sgmt_2026-07-28_6_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/6/sgmt/1/detail$",
+   "file": "sgmt_2026-07-28_6_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/6/sgmt/2/detail$",
+   "file": "sgmt_2026-07-28_6_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/6/sgmt/3/detail$",
+   "file": "sgmt_2026-07-28_6_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/6/sgmt/4/detail$",
+   "file": "sgmt_2026-07-28_6_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/6/sgmt/5/detail$",
+   "file": "sgmt_2026-07-28_6_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/7$",
+   "file": "run_2026-07-28_7.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/7/sgmt/0/detail$",
+   "file": "sgmt_2026-07-28_7_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/7/sgmt/1/detail$",
+   "file": "sgmt_2026-07-28_7_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/7/sgmt/2/detail$",
+   "file": "sgmt_2026-07-28_7_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/7/sgmt/3/detail$",
+   "file": "sgmt_2026-07-28_7_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/8$",
+   "file": "run_2026-07-28_8.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/8/sgmt/0/detail$",
+   "file": "sgmt_2026-07-28_8_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/8/sgmt/1/detail$",
+   "file": "sgmt_2026-07-28_8_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/8/sgmt/2/detail$",
+   "file": "sgmt_2026-07-28_8_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/8/sgmt/3/detail$",
+   "file": "sgmt_2026-07-28_8_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/9$",
+   "file": "run_2026-07-28_9.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/9/sgmt/0/detail$",
+   "file": "sgmt_2026-07-28_9_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/9/sgmt/1/detail$",
+   "file": "sgmt_2026-07-28_9_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/9/sgmt/2/detail$",
+   "file": "sgmt_2026-07-28_9_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/10$",
+   "file": "run_2026-07-28_10.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/10/sgmt/0/detail$",
+   "file": "sgmt_2026-07-28_10_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/10/sgmt/1/detail$",
+   "file": "sgmt_2026-07-28_10_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/10/sgmt/2/detail$",
+   "file": "sgmt_2026-07-28_10_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/10/sgmt/3/detail$",
+   "file": "sgmt_2026-07-28_10_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/10/sgmt/4/detail$",
+   "file": "sgmt_2026-07-28_10_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/11$",
+   "file": "run_2026-07-28_11.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/11/sgmt/0/detail$",
+   "file": "sgmt_2026-07-28_11_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/11/sgmt/1/detail$",
+   "file": "sgmt_2026-07-28_11_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/11/sgmt/2/detail$",
+   "file": "sgmt_2026-07-28_11_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-07-28/run/11/sgmt/3/detail$",
+   "file": "sgmt_2026-07-28_11_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05$",
+   "file": "day_2026-08-05.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/0$",
+   "file": "run_2026-08-05_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/0/sgmt/0/detail$",
+   "file": "sgmt_2026-08-05_0_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/0/sgmt/1/detail$",
+   "file": "sgmt_2026-08-05_0_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/0/sgmt/2/detail$",
+   "file": "sgmt_2026-08-05_0_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/0/sgmt/3/detail$",
+   "file": "sgmt_2026-08-05_0_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/0/sgmt/4/detail$",
+   "file": "sgmt_2026-08-05_0_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/1$",
+   "file": "run_2026-08-05_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/1/sgmt/0/detail$",
+   "file": "sgmt_2026-08-05_1_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/1/sgmt/1/detail$",
+   "file": "sgmt_2026-08-05_1_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/1/sgmt/2/detail$",
+   "file": "sgmt_2026-08-05_1_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/1/sgmt/3/detail$",
+   "file": "sgmt_2026-08-05_1_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/1/sgmt/4/detail$",
+   "file": "sgmt_2026-08-05_1_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/2$",
+   "file": "run_2026-08-05_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/2/sgmt/0/detail$",
+   "file": "sgmt_2026-08-05_2_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/2/sgmt/1/detail$",
+   "file": "sgmt_2026-08-05_2_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/2/sgmt/2/detail$",
+   "file": "sgmt_2026-08-05_2_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/2/sgmt/3/detail$",
+   "file": "sgmt_2026-08-05_2_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/2/sgmt/4/detail$",
+   "file": "sgmt_2026-08-05_2_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/2/sgmt/5/detail$",
+   "file": "sgmt_2026-08-05_2_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/3$",
+   "file": "run_2026-08-05_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/3/sgmt/0/detail$",
+   "file": "sgmt_2026-08-05_3_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/3/sgmt/1/detail$",
+   "file": "sgmt_2026-08-05_3_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/3/sgmt/2/detail$",
+   "file": "sgmt_2026-08-05_3_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/3/sgmt/3/detail$",
+   "file": "sgmt_2026-08-05_3_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/3/sgmt/4/detail$",
+   "file": "sgmt_2026-08-05_3_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/4$",
+   "file": "run_2026-08-05_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/4/sgmt/0/detail$",
+   "file": "sgmt_2026-08-05_4_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/4/sgmt/1/detail$",
+   "file": "sgmt_2026-08-05_4_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/4/sgmt/2/detail$",
+   "file": "sgmt_2026-08-05_4_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/4/sgmt/3/detail$",
+   "file": "sgmt_2026-08-05_4_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/4/sgmt/4/detail$",
+   "file": "sgmt_2026-08-05_4_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/4/sgmt/5/detail$",
+   "file": "sgmt_2026-08-05_4_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/4/sgmt/6/detail$",
+   "file": "sgmt_2026-08-05_4_6.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/4/sgmt/7/detail$",
+   "file": "sgmt_2026-08-05_4_7.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/5$",
+   "file": "run_2026-08-05_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/5/sgmt/0/detail$",
+   "file": "sgmt_2026-08-05_5_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/5/sgmt/1/detail$",
+   "file": "sgmt_2026-08-05_5_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/5/sgmt/2/detail$",
+   "file": "sgmt_2026-08-05_5_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/5/sgmt/3/detail$",
+   "file": "sgmt_2026-08-05_5_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/5/sgmt/4/detail$",
+   "file": "sgmt_2026-08-05_5_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/5/sgmt/5/detail$",
+   "file": "sgmt_2026-08-05_5_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/6$",
+   "file": "run_2026-08-05_6.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/6/sgmt/0/detail$",
+   "file": "sgmt_2026-08-05_6_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/6/sgmt/1/detail$",
+   "file": "sgmt_2026-08-05_6_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/6/sgmt/2/detail$",
+   "file": "sgmt_2026-08-05_6_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/6/sgmt/3/detail$",
+   "file": "sgmt_2026-08-05_6_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/7$",
+   "file": "run_2026-08-05_7.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/7/sgmt/0/detail$",
+   "file": "sgmt_2026-08-05_7_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/7/sgmt/1/detail$",
+   "file": "sgmt_2026-08-05_7_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/7/sgmt/2/detail$",
+   "file": "sgmt_2026-08-05_7_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/8$",
+   "file": "run_2026-08-05_8.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/8/sgmt/0/detail$",
+   "file": "sgmt_2026-08-05_8_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/8/sgmt/1/detail$",
+   "file": "sgmt_2026-08-05_8_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/8/sgmt/2/detail$",
+   "file": "sgmt_2026-08-05_8_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/8/sgmt/3/detail$",
+   "file": "sgmt_2026-08-05_8_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/8/sgmt/4/detail$",
+   "file": "sgmt_2026-08-05_8_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/8/sgmt/5/detail$",
+   "file": "sgmt_2026-08-05_8_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/8/sgmt/6/detail$",
+   "file": "sgmt_2026-08-05_8_6.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/9$",
+   "file": "run_2026-08-05_9.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/9/sgmt/0/detail$",
+   "file": "sgmt_2026-08-05_9_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/9/sgmt/1/detail$",
+   "file": "sgmt_2026-08-05_9_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/9/sgmt/2/detail$",
+   "file": "sgmt_2026-08-05_9_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/9/sgmt/3/detail$",
+   "file": "sgmt_2026-08-05_9_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/9/sgmt/4/detail$",
+   "file": "sgmt_2026-08-05_9_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/9/sgmt/5/detail$",
+   "file": "sgmt_2026-08-05_9_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/9/sgmt/6/detail$",
+   "file": "sgmt_2026-08-05_9_6.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/10$",
+   "file": "run_2026-08-05_10.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/10/sgmt/0/detail$",
+   "file": "sgmt_2026-08-05_10_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/10/sgmt/1/detail$",
+   "file": "sgmt_2026-08-05_10_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/10/sgmt/2/detail$",
+   "file": "sgmt_2026-08-05_10_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/11$",
+   "file": "run_2026-08-05_11.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/11/sgmt/0/detail$",
+   "file": "sgmt_2026-08-05_11_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/11/sgmt/1/detail$",
+   "file": "sgmt_2026-08-05_11_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/11/sgmt/2/detail$",
+   "file": "sgmt_2026-08-05_11_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/12$",
+   "file": "run_2026-08-05_12.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/12/sgmt/0/detail$",
+   "file": "sgmt_2026-08-05_12_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/12/sgmt/1/detail$",
+   "file": "sgmt_2026-08-05_12_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/12/sgmt/2/detail$",
+   "file": "sgmt_2026-08-05_12_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/12/sgmt/3/detail$",
+   "file": "sgmt_2026-08-05_12_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/12/sgmt/4/detail$",
+   "file": "sgmt_2026-08-05_12_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-08-05/run/12/sgmt/5/detail$",
+   "file": "sgmt_2026-08-05_12_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08$",
+   "file": "day_2026-10-08.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/0$",
+   "file": "run_2026-10-08_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/0/sgmt/0/detail$",
+   "file": "sgmt_2026-10-08_0_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/0/sgmt/1/detail$",
+   "file": "sgmt_2026-10-08_0_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/1$",
+   "file": "run_2026-10-08_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/1/sgmt/0/detail$",
+   "file": "sgmt_2026-10-08_1_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/1/sgmt/1/detail$",
+   "file": "sgmt_2026-10-08_1_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/2$",
+   "file": "run_2026-10-08_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/2/sgmt/0/detail$",
+   "file": "sgmt_2026-10-08_2_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/3$",
+   "file": "run_2026-10-08_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/3/sgmt/0/detail$",
+   "file": "sgmt_2026-10-08_3_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/3/sgmt/1/detail$",
+   "file": "sgmt_2026-10-08_3_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/4$",
+   "file": "run_2026-10-08_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/4/sgmt/0/detail$",
+   "file": "sgmt_2026-10-08_4_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/5$",
+   "file": "run_2026-10-08_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/5/sgmt/0/detail$",
+   "file": "sgmt_2026-10-08_5_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/6$",
+   "file": "run_2026-10-08_6.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/6/sgmt/0/detail$",
+   "file": "sgmt_2026-10-08_6_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/7$",
+   "file": "run_2026-10-08_7.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/7/sgmt/0/detail$",
+   "file": "sgmt_2026-10-08_7_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/7/sgmt/1/detail$",
+   "file": "sgmt_2026-10-08_7_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/8$",
+   "file": "run_2026-10-08_8.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/8/sgmt/0/detail$",
+   "file": "sgmt_2026-10-08_8_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/8/sgmt/1/detail$",
+   "file": "sgmt_2026-10-08_8_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/9$",
+   "file": "run_2026-10-08_9.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/9/sgmt/0/detail$",
+   "file": "sgmt_2026-10-08_9_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/9/sgmt/1/detail$",
+   "file": "sgmt_2026-10-08_9_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/10$",
+   "file": "run_2026-10-08_10.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/10/sgmt/0/detail$",
+   "file": "sgmt_2026-10-08_10_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/11$",
+   "file": "run_2026-10-08_11.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/11/sgmt/0/detail$",
+   "file": "sgmt_2026-10-08_11_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/12$",
+   "file": "run_2026-10-08_12.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-08/run/12/sgmt/0/detail$",
+   "file": "sgmt_2026-10-08_12_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11$",
+   "file": "day_2026-10-11.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/0$",
+   "file": "run_2026-10-11_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/0/sgmt/0/detail$",
+   "file": "sgmt_2026-10-11_0_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/0/sgmt/1/detail$",
+   "file": "sgmt_2026-10-11_0_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/1$",
+   "file": "run_2026-10-11_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/1/sgmt/0/detail$",
+   "file": "sgmt_2026-10-11_1_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/2$",
+   "file": "run_2026-10-11_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/2/sgmt/0/detail$",
+   "file": "sgmt_2026-10-11_2_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/2/sgmt/1/detail$",
+   "file": "sgmt_2026-10-11_2_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/3$",
+   "file": "run_2026-10-11_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/3/sgmt/0/detail$",
+   "file": "sgmt_2026-10-11_3_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/4$",
+   "file": "run_2026-10-11_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/4/sgmt/0/detail$",
+   "file": "sgmt_2026-10-11_4_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/5$",
+   "file": "run_2026-10-11_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/5/sgmt/0/detail$",
+   "file": "sgmt_2026-10-11_5_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/5/sgmt/1/detail$",
+   "file": "sgmt_2026-10-11_5_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/6$",
+   "file": "run_2026-10-11_6.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/6/sgmt/0/detail$",
+   "file": "sgmt_2026-10-11_6_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/7$",
+   "file": "run_2026-10-11_7.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/7/sgmt/0/detail$",
+   "file": "sgmt_2026-10-11_7_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/8$",
+   "file": "run_2026-10-11_8.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/8/sgmt/0/detail$",
+   "file": "sgmt_2026-10-11_8_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/9$",
+   "file": "run_2026-10-11_9.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/9/sgmt/0/detail$",
+   "file": "sgmt_2026-10-11_9_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/9/sgmt/1/detail$",
+   "file": "sgmt_2026-10-11_9_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/10$",
+   "file": "run_2026-10-11_10.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/10/sgmt/0/detail$",
+   "file": "sgmt_2026-10-11_10_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/11$",
+   "file": "run_2026-10-11_11.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/11/sgmt/0/detail$",
+   "file": "sgmt_2026-10-11_11_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/11/sgmt/1/detail$",
+   "file": "sgmt_2026-10-11_11_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/12$",
+   "file": "run_2026-10-11_12.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/12/sgmt/0/detail$",
+   "file": "sgmt_2026-10-11_12_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/12/sgmt/1/detail$",
+   "file": "sgmt_2026-10-11_12_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/13$",
+   "file": "run_2026-10-11_13.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/14$",
+   "file": "run_2026-10-11_14.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/14/sgmt/0/detail$",
+   "file": "sgmt_2026-10-11_14_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-11/run/14/sgmt/1/detail$",
+   "file": "sgmt_2026-10-11_14_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12$",
+   "file": "day_2026-10-12.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/0$",
+   "file": "run_2026-10-12_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/0/sgmt/0/detail$",
+   "file": "sgmt_2026-10-12_0_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/1$",
+   "file": "run_2026-10-12_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/1/sgmt/0/detail$",
+   "file": "sgmt_2026-10-12_1_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/1/sgmt/1/detail$",
+   "file": "sgmt_2026-10-12_1_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/2$",
+   "file": "run_2026-10-12_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/2/sgmt/0/detail$",
+   "file": "sgmt_2026-10-12_2_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/3$",
+   "file": "run_2026-10-12_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/3/sgmt/0/detail$",
+   "file": "sgmt_2026-10-12_3_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/4$",
+   "file": "run_2026-10-12_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/4/sgmt/0/detail$",
+   "file": "sgmt_2026-10-12_4_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/5$",
+   "file": "run_2026-10-12_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/5/sgmt/0/detail$",
+   "file": "sgmt_2026-10-12_5_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/6$",
+   "file": "run_2026-10-12_6.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/6/sgmt/0/detail$",
+   "file": "sgmt_2026-10-12_6_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/6/sgmt/1/detail$",
+   "file": "sgmt_2026-10-12_6_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/7$",
+   "file": "run_2026-10-12_7.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/7/sgmt/0/detail$",
+   "file": "sgmt_2026-10-12_7_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/8$",
+   "file": "run_2026-10-12_8.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/8/sgmt/0/detail$",
+   "file": "sgmt_2026-10-12_8_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/8/sgmt/1/detail$",
+   "file": "sgmt_2026-10-12_8_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/9$",
+   "file": "run_2026-10-12_9.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/9/sgmt/0/detail$",
+   "file": "sgmt_2026-10-12_9_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/9/sgmt/1/detail$",
+   "file": "sgmt_2026-10-12_9_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/9/sgmt/2/detail$",
+   "file": "sgmt_2026-10-12_9_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/10$",
+   "file": "run_2026-10-12_10.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/10/sgmt/0/detail$",
+   "file": "sgmt_2026-10-12_10_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/11$",
+   "file": "run_2026-10-12_11.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/11/sgmt/0/detail$",
+   "file": "sgmt_2026-10-12_11_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/12$",
+   "file": "run_2026-10-12_12.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/12/sgmt/0/detail$",
+   "file": "sgmt_2026-10-12_12_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/12/sgmt/1/detail$",
+   "file": "sgmt_2026-10-12_12_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/13$",
+   "file": "run_2026-10-12_13.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/13/sgmt/0/detail$",
+   "file": "sgmt_2026-10-12_13_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/14$",
+   "file": "run_2026-10-12_14.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/14/sgmt/0/detail$",
+   "file": "sgmt_2026-10-12_14_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/14/sgmt/1/detail$",
+   "file": "sgmt_2026-10-12_14_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/15$",
+   "file": "run_2026-10-12_15.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/15/sgmt/0/detail$",
+   "file": "sgmt_2026-10-12_15_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-12/run/15/sgmt/1/detail$",
+   "file": "sgmt_2026-10-12_15_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16$",
+   "file": "day_2026-10-16.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/0$",
+   "file": "run_2026-10-16_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/0/sgmt/0/detail$",
+   "file": "sgmt_2026-10-16_0_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/0/sgmt/1/detail$",
+   "file": "sgmt_2026-10-16_0_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/0/sgmt/2/detail$",
+   "file": "sgmt_2026-10-16_0_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/1$",
+   "file": "run_2026-10-16_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/1/sgmt/0/detail$",
+   "file": "sgmt_2026-10-16_1_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/1/sgmt/1/detail$",
+   "file": "sgmt_2026-10-16_1_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/1/sgmt/2/detail$",
+   "file": "sgmt_2026-10-16_1_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/2$",
+   "file": "run_2026-10-16_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/2/sgmt/0/detail$",
+   "file": "sgmt_2026-10-16_2_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/3$",
+   "file": "run_2026-10-16_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/3/sgmt/0/detail$",
+   "file": "sgmt_2026-10-16_3_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/3/sgmt/1/detail$",
+   "file": "sgmt_2026-10-16_3_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/4$",
+   "file": "run_2026-10-16_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/4/sgmt/0/detail$",
+   "file": "sgmt_2026-10-16_4_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/5$",
+   "file": "run_2026-10-16_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/5/sgmt/0/detail$",
+   "file": "sgmt_2026-10-16_5_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/6$",
+   "file": "run_2026-10-16_6.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/6/sgmt/0/detail$",
+   "file": "sgmt_2026-10-16_6_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/7$",
+   "file": "run_2026-10-16_7.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/7/sgmt/0/detail$",
+   "file": "sgmt_2026-10-16_7_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/8$",
+   "file": "run_2026-10-16_8.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/8/sgmt/0/detail$",
+   "file": "sgmt_2026-10-16_8_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/8/sgmt/1/detail$",
+   "file": "sgmt_2026-10-16_8_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/8/sgmt/2/detail$",
+   "file": "sgmt_2026-10-16_8_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/9$",
+   "file": "run_2026-10-16_9.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/9/sgmt/0/detail$",
+   "file": "sgmt_2026-10-16_9_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/9/sgmt/1/detail$",
+   "file": "sgmt_2026-10-16_9_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/10$",
+   "file": "run_2026-10-16_10.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/10/sgmt/0/detail$",
+   "file": "sgmt_2026-10-16_10_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/11$",
+   "file": "run_2026-10-16_11.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/11/sgmt/0/detail$",
+   "file": "sgmt_2026-10-16_11_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/12$",
+   "file": "run_2026-10-16_12.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/12/sgmt/0/detail$",
+   "file": "sgmt_2026-10-16_12_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/13$",
+   "file": "run_2026-10-16_13.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/13/sgmt/0/detail$",
+   "file": "sgmt_2026-10-16_13_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/13/sgmt/1/detail$",
+   "file": "sgmt_2026-10-16_13_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-10-16/run/14$",
+   "file": "run_2026-10-16_14.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13$",
+   "file": "day_2026-11-13.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/0$",
+   "file": "run_2026-11-13_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/0/sgmt/0/detail$",
+   "file": "sgmt_2026-11-13_0_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/0/sgmt/1/detail$",
+   "file": "sgmt_2026-11-13_0_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/0/sgmt/2/detail$",
+   "file": "sgmt_2026-11-13_0_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/0/sgmt/3/detail$",
+   "file": "sgmt_2026-11-13_0_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/0/sgmt/4/detail$",
+   "file": "sgmt_2026-11-13_0_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/1$",
+   "file": "run_2026-11-13_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/1/sgmt/0/detail$",
+   "file": "sgmt_2026-11-13_1_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/1/sgmt/1/detail$",
+   "file": "sgmt_2026-11-13_1_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/1/sgmt/2/detail$",
+   "file": "sgmt_2026-11-13_1_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/2$",
+   "file": "run_2026-11-13_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/2/sgmt/0/detail$",
+   "file": "sgmt_2026-11-13_2_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/2/sgmt/1/detail$",
+   "file": "sgmt_2026-11-13_2_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/2/sgmt/2/detail$",
+   "file": "sgmt_2026-11-13_2_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/2/sgmt/3/detail$",
+   "file": "sgmt_2026-11-13_2_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/2/sgmt/4/detail$",
+   "file": "sgmt_2026-11-13_2_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/2/sgmt/5/detail$",
+   "file": "sgmt_2026-11-13_2_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/3$",
+   "file": "run_2026-11-13_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/3/sgmt/0/detail$",
+   "file": "sgmt_2026-11-13_3_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/3/sgmt/1/detail$",
+   "file": "sgmt_2026-11-13_3_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/3/sgmt/2/detail$",
+   "file": "sgmt_2026-11-13_3_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/4$",
+   "file": "run_2026-11-13_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/5$",
+   "file": "run_2026-11-13_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/5/sgmt/0/detail$",
+   "file": "sgmt_2026-11-13_5_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/5/sgmt/1/detail$",
+   "file": "sgmt_2026-11-13_5_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/5/sgmt/2/detail$",
+   "file": "sgmt_2026-11-13_5_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/5/sgmt/3/detail$",
+   "file": "sgmt_2026-11-13_5_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/5/sgmt/4/detail$",
+   "file": "sgmt_2026-11-13_5_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/6$",
+   "file": "run_2026-11-13_6.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/7$",
+   "file": "run_2026-11-13_7.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/7/sgmt/0/detail$",
+   "file": "sgmt_2026-11-13_7_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/7/sgmt/1/detail$",
+   "file": "sgmt_2026-11-13_7_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/7/sgmt/2/detail$",
+   "file": "sgmt_2026-11-13_7_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/7/sgmt/3/detail$",
+   "file": "sgmt_2026-11-13_7_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/8$",
+   "file": "run_2026-11-13_8.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/8/sgmt/0/detail$",
+   "file": "sgmt_2026-11-13_8_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/8/sgmt/1/detail$",
+   "file": "sgmt_2026-11-13_8_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/8/sgmt/2/detail$",
+   "file": "sgmt_2026-11-13_8_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/8/sgmt/3/detail$",
+   "file": "sgmt_2026-11-13_8_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/8/sgmt/4/detail$",
+   "file": "sgmt_2026-11-13_8_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/8/sgmt/5/detail$",
+   "file": "sgmt_2026-11-13_8_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/8/sgmt/6/detail$",
+   "file": "sgmt_2026-11-13_8_6.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/9$",
+   "file": "run_2026-11-13_9.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/9/sgmt/0/detail$",
+   "file": "sgmt_2026-11-13_9_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/9/sgmt/1/detail$",
+   "file": "sgmt_2026-11-13_9_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/9/sgmt/2/detail$",
+   "file": "sgmt_2026-11-13_9_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/9/sgmt/3/detail$",
+   "file": "sgmt_2026-11-13_9_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/9/sgmt/4/detail$",
+   "file": "sgmt_2026-11-13_9_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/10$",
+   "file": "run_2026-11-13_10.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/10/sgmt/0/detail$",
+   "file": "sgmt_2026-11-13_10_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/10/sgmt/1/detail$",
+   "file": "sgmt_2026-11-13_10_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/10/sgmt/2/detail$",
+   "file": "sgmt_2026-11-13_10_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-13/run/10/sgmt/3/detail$",
+   "file": "sgmt_2026-11-13_10_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14$",
+   "file": "day_2026-11-14.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/0$",
+   "file": "run_2026-11-14_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/0/sgmt/0/detail$",
+   "file": "sgmt_2026-11-14_0_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/0/sgmt/1/detail$",
+   "file": "sgmt_2026-11-14_0_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/0/sgmt/2/detail$",
+   "file": "sgmt_2026-11-14_0_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/0/sgmt/3/detail$",
+   "file": "sgmt_2026-11-14_0_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/0/sgmt/4/detail$",
+   "file": "sgmt_2026-11-14_0_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/0/sgmt/5/detail$",
+   "file": "sgmt_2026-11-14_0_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/0/sgmt/6/detail$",
+   "file": "sgmt_2026-11-14_0_6.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/1$",
+   "file": "run_2026-11-14_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/1/sgmt/0/detail$",
+   "file": "sgmt_2026-11-14_1_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/1/sgmt/1/detail$",
+   "file": "sgmt_2026-11-14_1_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/1/sgmt/2/detail$",
+   "file": "sgmt_2026-11-14_1_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/1/sgmt/3/detail$",
+   "file": "sgmt_2026-11-14_1_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/1/sgmt/4/detail$",
+   "file": "sgmt_2026-11-14_1_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/2$",
+   "file": "run_2026-11-14_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/2/sgmt/0/detail$",
+   "file": "sgmt_2026-11-14_2_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/2/sgmt/1/detail$",
+   "file": "sgmt_2026-11-14_2_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/2/sgmt/2/detail$",
+   "file": "sgmt_2026-11-14_2_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/2/sgmt/3/detail$",
+   "file": "sgmt_2026-11-14_2_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/2/sgmt/4/detail$",
+   "file": "sgmt_2026-11-14_2_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/3$",
+   "file": "run_2026-11-14_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/3/sgmt/0/detail$",
+   "file": "sgmt_2026-11-14_3_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/3/sgmt/1/detail$",
+   "file": "sgmt_2026-11-14_3_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/3/sgmt/2/detail$",
+   "file": "sgmt_2026-11-14_3_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/3/sgmt/3/detail$",
+   "file": "sgmt_2026-11-14_3_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/3/sgmt/4/detail$",
+   "file": "sgmt_2026-11-14_3_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/4$",
+   "file": "run_2026-11-14_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/4/sgmt/0/detail$",
+   "file": "sgmt_2026-11-14_4_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/5$",
+   "file": "run_2026-11-14_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/5/sgmt/0/detail$",
+   "file": "sgmt_2026-11-14_5_0.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/5/sgmt/1/detail$",
+   "file": "sgmt_2026-11-14_5_1.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/5/sgmt/2/detail$",
+   "file": "sgmt_2026-11-14_5_2.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/5/sgmt/3/detail$",
+   "file": "sgmt_2026-11-14_5_3.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/5/sgmt/4/detail$",
+   "file": "sgmt_2026-11-14_5_4.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/5/sgmt/5/detail$",
+   "file": "sgmt_2026-11-14_5_5.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/5/sgmt/6/detail$",
+   "file": "sgmt_2026-11-14_5_6.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/5/sgmt/7/detail$",
+   "file": "sgmt_2026-11-14_5_7.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/5/sgmt/8/detail$",
+   "file": "sgmt_2026-11-14_5_8.json"
+  },
+  {
+   "re": "^GET /api/v2/users/me/day/2026-11-14/run/5/sgmt/9/detail$",
+   "file": "sgmt_2026-11-14_5_9.json"
+  },
+  {
    "re": "^GET /api/v2/users/me/ride-analytics$",
    "file": "ride_analytics.json"
   },
