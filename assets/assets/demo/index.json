@@ -1,6 +1,10 @@
 {
  "routes": [
   {
+   "re": "^GET /api/v2/users/me/ride-analytics$",
+   "file": "ride_analytics.json"
+  },
+  {
    "re": "^GET /api/v2/users/me$",
    "file": "me.json"
   },
